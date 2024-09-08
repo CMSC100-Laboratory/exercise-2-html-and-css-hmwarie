@@ -201,8 +201,17 @@ from, to { border-color: transparent }
     font-size: 4.5rem;
     font-weight: 600;
     line-height: normal;
-    
-        overflow: hidden;
+}
+
+.name{
+    color: #FFF;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-size: 4.5rem;
+    font-weight: 600;
+    line-height: normal;
+
+    overflow: hidden;
     border-right: .15em solid white;
     white-space: nowrap;
     margin: 20 auto;
@@ -211,7 +220,6 @@ from, to { border-color: transparent }
       typing 2.5s steps(20, end),
       blink-caret .75s step-end infinite;
 }
-
 
 .rect-right{
     height: 2.125rem;

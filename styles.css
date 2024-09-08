@@ -478,12 +478,7 @@ from, to { border-color: transparent }
     filter: drop-shadow(0px -20px 50px rgba(0,0,0,0.5));
   }
 
-.loe:hover {
-    -webkit-filter: drop-shadow(0px -20px 50px rgba(255, 255, 255, 0.5));
-    filter: drop-shadow(0px -20px 50px rgba(255, 255, 255, 0.5));
-  }
-
-  .works{
+.works{
     display: flex;
     padding: 3.125rem 6.25rem;
     flex-direction: column;
@@ -539,6 +534,19 @@ from, to { border-color: transparent }
 .stack-item{
     height: 3.125rem;
 }
+
+.float {
+    animation: floatUpDown 3s infinite alternate;
+  }
+
+  @keyframes floatUpDown {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(-10px);
+    }
+  }
 
 iframe{
     border-radius: 2em;

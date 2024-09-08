@@ -11,7 +11,7 @@ Degree Program:
 - BS Computer Science
 
 Live Website link:
-- 
+- https://cmsc100-laboratory.github.io/exercise-2-html-and-css-hmwarie/
 
 Steps on how to create GitHub page:
 1. Create a repository

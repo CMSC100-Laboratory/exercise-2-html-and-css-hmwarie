@@ -455,7 +455,17 @@ from, to { border-color: transparent }
     box-shadow: -20px 20px 50px 0px rgba(0, 255, 41, 0.50), 20px 20px 50px 0px rgba(255, 0, 0, 0.50), 0px -20px 50px 0px rgba(0, 71, 255, 0.50);
 }
 
-.works{
+.clarimage:hover {
+    -webkit-filter: drop-shadow(0px -20px 50px rgba(0,0,0,0.5));
+    filter: drop-shadow(0px -20px 50px rgba(0,0,0,0.5));
+  }
+
+.loe:hover {
+    -webkit-filter: drop-shadow(0px -20px 50px rgba(255, 255, 255, 0.5));
+    filter: drop-shadow(0px -20px 50px rgba(255, 255, 255, 0.5));
+  }
+
+  .works{
     display: flex;
     padding: 3.125rem 6.25rem;
     flex-direction: column;

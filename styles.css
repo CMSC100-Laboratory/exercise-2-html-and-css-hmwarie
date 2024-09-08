@@ -221,6 +221,18 @@ from, to { border-color: transparent }
       blink-caret .75s step-end infinite;
 }
 
+a:link {
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    font-weight: bold;
+  }
+
+  a:hover {
+    color: rgb(255, 169, 39);
+    background-color: transparent;
+    text-decoration: underline;
+  }
+
 .rect-right{
     height: 2.125rem;
     flex: 1 0 0;

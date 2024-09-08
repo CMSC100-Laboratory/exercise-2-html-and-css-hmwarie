@@ -221,12 +221,6 @@ from, to { border-color: transparent }
       blink-caret .75s step-end infinite;
 }
 
-a:link {
-    color: rgb(255, 255, 255);
-    background-color: transparent;
-    font-weight: bold;
-  }
-
   a:hover {
     color: rgb(255, 169, 39);
     background-color: transparent;

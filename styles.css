@@ -227,6 +227,10 @@ from, to { border-color: transparent }
     text-decoration: underline;
   }
 
+  a:visited {
+    color: rgb(114, 114, 114);
+  }
+
 .rect-right{
     height: 2.125rem;
     flex: 1 0 0;
